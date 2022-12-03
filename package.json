@@ -1,0 +1,16 @@
+{
+  "name": "crypto-speed",
+  "version": "1.0.0",
+  "description": "Sample crypto speed test",
+  "main": "index.js",
+  "author": "MyEcoria",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-libcurl": "^3.0.0",
+    "reconnecting-websocket": "^4.1.10",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.4",
+    "ws": "^6.2.0"
+  }
+}
