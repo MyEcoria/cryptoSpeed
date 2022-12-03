@@ -1,6 +1,5 @@
 const WS = require('ws');
 const ReconnectingWebSocket = require('reconnecting-websocket');
-const querystring = require("querystring");
 const request = require('request')
 
 // Create a reconnecting WebSocket.
@@ -45,7 +44,7 @@ const options = {
 
 // The node sent us a message
 ws.onmessage = msg => {
-	console.log(msg.data);
+	// console.log(msg.data);
 	data_json = JSON.parse(msg.data);
 
 	if (data_json.topic === "confirmation") {
