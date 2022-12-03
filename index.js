@@ -24,13 +24,13 @@ ws.onopen = () => {
 };
 const temps1 = Date.now();
 const options = {
-	url: 'http://51.91.103.54:7040',
+	url: '',
 	json: true,
 	body: {
 		action: "send",
-		wallet: "A8B5F2447A1BAFA85AF0465B6BA00C08730724E28FBF5111A7270353EAEE8C34",
-	    source: "xdg_3trcizdrj8uck5f46onn3tomac7wgx5rfey7a1y5dp9q3dqyn6ccup688atx",
-		destination: "xdg_3trcizdrj8uck5f46onn3tomac7wgx5rfey7a1y5dp9q3dqyn6ccup688atx",
+		wallet: "",
+	        source: "",
+		destination: "",
 		amount: "1000000000000000"
 	}
   }
